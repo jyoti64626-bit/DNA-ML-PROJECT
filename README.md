@@ -33,13 +33,18 @@ The project uses DNA sequence datasets from:
 
 ## Files
 
-- `dna_ml_project.py` — Main Python program
-- `human_data.txt` — Human DNA dataset
-- `chimp_data.txt` — Chimpanzee DNA dataset
-- `dog_data.txt` — Dog DNA dataset
-- `requirements.txt` — Required Python libraries
-## Development Note
+- app.py — Streamlit web application
+- dna_ml_project.py — Main Python machine learning program
+- human_data.txt — Human DNA dataset
+- chimp_data.txt — Chimpanzee DNA dataset
+- dog_data.txt — Dog DNA dataset
+- requirements.txt — Required Python libraries
+## Deployment
 
-This project was developed as a learning project with the assistance of AI tools for guidance, debugging, code explanations, and understanding the Machine Learning workflow.
+The application is deployed using Streamlit Community Cloud.
 
-The project was inspired by and based on the learning approach of the original GitHub project by nageshsinghc4.
+Users can enter a DNA sequence and get a predicted gene class through the web application.
+
+## Disclaimer
+
+This is an educational machine learning project and is not intended for medical diagnosis or clinical use.
